@@ -1,5 +1,8 @@
-import { test } from '..';
+describe("with two numbers to multiply", () => {
+  it("returns the result", () => {
+    const five = new Dollar(5);
+    five.times(2);
 
-it('works', () => {
-  expect(test()).toEqual('hello world!');
-});
+    expect(five.amount).toEqual(10);
+  })
+})

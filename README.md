@@ -57,11 +57,7 @@ Enough talk. The best way to learn is through practice.
 
 ## What are we going to code?
 
-Options:
-
-Baby Step Predictor
-FizzBuzz
-Calculator (Addition, Subtraction)
+Converting Dollars -> Peso
 
 ## Getting Started
 
@@ -85,7 +81,7 @@ yarn test
 ```
 
 
-Outline: 
+Outline:
 
 Explain the workshop environment
 Ways to get to green ASAP

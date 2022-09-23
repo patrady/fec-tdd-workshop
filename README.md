@@ -17,7 +17,6 @@ That may sound a little extreme but it's true.
 All of us know that we need tests whether that's because
 - We know we should do it (but secretly find testing tedious)
 - Our team and leadership expects good code coverage
-- It's "apparently" a better way to program
 
 That's how I felt and the morale on my team wasn't helping either.
 We had a saying, "Coding the logic takes an hour but testing afterwards takes three days". 
@@ -39,7 +38,7 @@ There's tons of benefits to TDD and I can testify to them. Here's a few:
 1. You're going to increase your code coverage by default
 2. You're going to write classes that are more decoupled, code that's easier to test, and cleaner code because you're constantly refactoring
 3. Refactor without the 💦
-4. Ship less 🪲
+4. Ship less bugs 🪲
 5. My personal favorite: [Wishful coding](https://dev.to/rpalo/wishful-coding-dpj)
 
 But you may think this sounds just like writing tests in general.
@@ -57,7 +56,7 @@ Enough talk. The best way to learn is through practice.
 
 ## What are we going to code?
 
-Converting Dollars -> Peso
+We are going to create two types of money which will have some operations and we can compare them to each other.
 
 ## Getting Started
 
@@ -80,16 +79,8 @@ yarn install
 yarn test
 ```
 
-
-Outline:
-
-Explain the workshop environment
-Ways to get to green ASAP
-
-Strategy
-                - Make the code ugly at first
-                - Continue to change the requirements
-                - Remember to always write the test first
-
 Recap
-How do I get better at this? ... Practice it and challenge your team to do it too
+- How do I get better at this? ... Practice it and challenge your team to do it too
+- You won't learn TDD if you don't force yourself to do it
+- Feature tests or component tests - use it for everything!
+- Advocate for more testing in your routine

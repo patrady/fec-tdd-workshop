@@ -8,7 +8,7 @@ Put your laptop on Do Not Disturb (We don't want those Teams messages coming thr
 ## What is Test Driven Development (TDD)?
 
 Quoting Kent Beck, _"Test-driven development is a way of managing fear during programming"_.
-But why would you fear your own programming? 
+But why would you fear your own programming?
 Why would you fear your own code?
 Maybe it's not the code... maybe it's you that you should be afraid of.
 In my experience with TDD, I've learned that I can't trust myself without having a test to prove I programmed something right.
@@ -57,7 +57,7 @@ Enough talk. The best way to learn is through practice.
 
 ## What are we going to code?
 
-Converting Dollars -> Peso
+Creating Dollars, Peso, and abstracting them.
 
 ## Getting Started
 
@@ -79,17 +79,3 @@ Get everything setup on your machine and notice that there is a failing test
 yarn install
 yarn test
 ```
-
-
-Outline:
-
-Explain the workshop environment
-Ways to get to green ASAP
-
-Strategy
-                - Make the code ugly at first
-                - Continue to change the requirements
-                - Remember to always write the test first
-
-Recap
-How do I get better at this? ... Practice it and challenge your team to do it too
